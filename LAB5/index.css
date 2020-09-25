@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.resp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    border: 3px solid black;
+    margin: 25px;
+    width: 400px;
+    height: 250px;
+    transition: all .3s;
+}
+
+img:hover{
+    /* transform: translate3d(5px, 5px, 5px); */
+    transform: scale(1.5);
+    opacity: .9;
+}
