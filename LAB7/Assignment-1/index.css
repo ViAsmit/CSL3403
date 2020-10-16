@@ -1,0 +1,43 @@
+body{
+  background-image: url('desert.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    border-bottom: 3px solid rgba(255, 0, 0, 1);
+    border-right: 3px solid rgba(0, 0, 0, 1);
+    padding: 10px;
+}
+#h1-hover:hover{
+  display: block;
+  background-color: blue;
+  text-align: center;
+  font-size: 60px;
+}
+
+.resp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    border: 3px solid black;
+    margin: 15px;
+    width: 500px;
+    height: 350px;
+    transition: all .3s;
+}
+
+img:hover{
+    /* transform: translate3d(5px, 5px, 5px); */
+    transform: rotate(45deg);
+    height: 250px;
+    /* transform:  */
+    opacity: .9;
+}
